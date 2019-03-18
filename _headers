@@ -1,0 +1,100 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/amirmi-blog/offline-plugin-app-shell-fallback/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/component---node-modules-gatsby-plugin-offline-app-shell-js-71e9b9f97787c6f2b874.js>; rel=preload; as=script
+/amirmi-blog/404
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tags
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/categories
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/posts/perfecting-the-art-of-perfection/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/posts/the-origins-of-social-stationery-lettering
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/posts/humane-typography-in-the-digital-age/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/posts/a-brief-history-of-typography/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/pages/contacts/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/pages/about/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/posts/the-birth-of-movable-type/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/design
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/gatsby
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/handwriting
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/helvetica
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/history
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/history-of-typography
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/learning-to-write
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/lettering
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/linotype
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/monotype
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/open-source
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/typefaces
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/typography
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/tag/web-development
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/category/design-culture
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/category/design-inspiration
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/category/typography
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
+/amirmi-blog/page/1
+  Link: </amirmi-blog/webpack-runtime-de5113e8f8d9c0024eab.js>; rel=preload; as=script
+  Link: </amirmi-blog/styles.27064b953135af5558cd.css>; rel=preload; as=script
